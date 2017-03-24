@@ -1,5 +1,5 @@
 describe('FizzBuzz', function () {
-  let fizzBuzz = require('../../lib/fizzBuzz.js')
+  let fizzBuzz = require('../../lib/fizzBuzz/fizzBuzz.js')
   it('should return "Fizz" when given 3', function () {
     let fizz = fizzBuzz(3)
 
