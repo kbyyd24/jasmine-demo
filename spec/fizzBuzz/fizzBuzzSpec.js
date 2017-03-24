@@ -15,4 +15,9 @@ describe('FizzBuzz', function () {
 
     expect(result).toEqual('FizzBuzz')
   })
+  it('should return number to String when given number not multiple of 3 and 5', function() {
+    let result = fizzBuzz(1)
+
+    expect(result === '1').toBe(true)
+  })
 })
