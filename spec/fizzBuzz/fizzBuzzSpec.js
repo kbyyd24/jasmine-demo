@@ -11,8 +11,8 @@ describe('FizzBuzz', function () {
     expect(buzz).toEqual('Buzz')
   })
   it('should return "FizzBuzz" when given number multiple of 3 and 5', function() {
-    let fizzBuzz = fizzBuzz(15)
+    let result = fizzBuzz(15)
 
-    expect(fizzBuzz).toEqual('FizzBuzz')
+    expect(result).toEqual('FizzBuzz')
   })
 })
